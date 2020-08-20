@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroRabbit.Asset.Api", "..\..\..\..\..\..\Microservices\Amol\MicroRabbit-POC\MicroRabbit\MicroRabbit.Asset.Api\MicroRabbit.Asset.Api.csproj", "{1D5610B5-CFF7-4D69-A3D3-E05AD1C03B5C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroRabbit.Asset.Domain", "..\..\..\..\..\..\Microservices\Amol\MicroRabbit-POC\MicroRabbit\MicroRabbit.Asset.Domain\MicroRabbit.Asset.Domain.csproj", "{6EBAEEF6-FA68-4528-88AD-27A511820E60}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroRabbit.Asset.Application", "..\..\..\..\..\..\Microservices\Amol\MicroRabbit-POC\MicroRabbit\MicroRabbit.Asset.Application\MicroRabbit.Asset.Application.csproj", "{99BD9D9C-F935-4EBA-B993-540701662EB8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{736458E0-DB79-4159-8E42-38CE4B4BA119}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{8C8944C1-07CD-443C-AA3C-883E1D871B80}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{B7F41018-B554-4EB1-9F2E-C7F984746AB5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IOC", "IOC", "{177075C6-B244-4D59-B4FA-55DC822F1C9A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroRabbit.Infra.IoC", "..\..\..\..\..\..\Microservices\Amol\MicroRabbit-POC\MicroRabbit\MicroRabbit.Infra.IoC\MicroRabbit.Infra.IoC.csproj", "{20B6BBB5-3FEA-4103-867B-465D18930AFA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1D5610B5-CFF7-4D69-A3D3-E05AD1C03B5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D5610B5-CFF7-4D69-A3D3-E05AD1C03B5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D5610B5-CFF7-4D69-A3D3-E05AD1C03B5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D5610B5-CFF7-4D69-A3D3-E05AD1C03B5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EBAEEF6-FA68-4528-88AD-27A511820E60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EBAEEF6-FA68-4528-88AD-27A511820E60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EBAEEF6-FA68-4528-88AD-27A511820E60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EBAEEF6-FA68-4528-88AD-27A511820E60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99BD9D9C-F935-4EBA-B993-540701662EB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99BD9D9C-F935-4EBA-B993-540701662EB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99BD9D9C-F935-4EBA-B993-540701662EB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99BD9D9C-F935-4EBA-B993-540701662EB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20B6BBB5-3FEA-4103-867B-465D18930AFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20B6BBB5-3FEA-4103-867B-465D18930AFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20B6BBB5-3FEA-4103-867B-465D18930AFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20B6BBB5-3FEA-4103-867B-465D18930AFA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1D5610B5-CFF7-4D69-A3D3-E05AD1C03B5C} = {736458E0-DB79-4159-8E42-38CE4B4BA119}
+		{6EBAEEF6-FA68-4528-88AD-27A511820E60} = {B7F41018-B554-4EB1-9F2E-C7F984746AB5}
+		{99BD9D9C-F935-4EBA-B993-540701662EB8} = {8C8944C1-07CD-443C-AA3C-883E1D871B80}
+		{20B6BBB5-3FEA-4103-867B-465D18930AFA} = {177075C6-B244-4D59-B4FA-55DC822F1C9A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {290695EA-2B4E-4E18-844D-8EA53705BDFD}
+	EndGlobalSection
+EndGlobal
